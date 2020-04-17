@@ -2,6 +2,7 @@
 title: Impressum
 layout: default
 order: 6
+permalink: /impressum/
 ---
 
 Verantwortlich im Sinne des Presserechts

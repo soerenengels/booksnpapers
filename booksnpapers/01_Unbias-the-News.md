@@ -2,7 +2,7 @@ title: Unbias the News
 date: 12-05-2020
 tags: Journalismus
 color: #00B763
-
+permalink: /archiv/unbias-the-news
 ---
 
 

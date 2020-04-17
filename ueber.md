@@ -2,6 +2,7 @@
 title: Über
 layout: default
 order: 2
+permalink: /ueber-books-n-papers/
 ---
 
 Im Zuge der anhaltenden Corona-Krise und aus dem Wunsch heraus, nach einer eigenständigen Auseinandersetzung mit diversen Bereichen den Journalismus, entstand im April 2020  aus dem Master-Studiengang MultiMedia & Autorschaft heraus der Wunsch nach einem Lesekreis zu journalistischen Büchern und wissenschaftlichen Abhandlungen. @booksnpapers war geworden.

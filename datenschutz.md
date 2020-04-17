@@ -2,6 +2,7 @@
 title: Datenschutz
 layout: default
 order: 5
+permalink: /datenschutz/
 ---
 
 Datenschutzerklärung
