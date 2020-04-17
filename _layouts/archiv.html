@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="de">
+    {% include head.html %}
+    <body>
+        <header>
+            <a href="">@booksnpapers</a>
+        </header>
+        <div class="sidebar">
+            <p id="explainer">
+                {{ site.description }}
+            </p>
+            {% include navigation.html %}
+        </div>
+        <main>
+            {{ content }}
+            {% include newsletter.html %}
+        </main>
+    </body>
+</html>

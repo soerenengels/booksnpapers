@@ -1,0 +1,184 @@
+* { margin: 0; padding: 0; }
+
+html, body {
+    background: #EBEBEB;
+    font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-size: 17.5px;
+    color: #00B763;
+}
+
+header {
+    background: #00B763;
+}
+header a {
+    color: rgba(255,255,255,.8);
+    text-decoration: none;
+    font-size: 3rem;
+}
+.sidebar {
+    display: flex;
+    flex-direction: column;
+}
+#explainer {
+    background: #E3E3E3;
+    text-align: justify;
+    hyphens: auto;
+}
+#explainer strong {
+    font-weight: bold;
+    font-style: italic;
+}
+@media screen and (max-width: 799px) {
+    body > header {
+        text-align: center;
+    }
+    body > header a {
+        font-size: 2rem;
+    }
+    nav {
+        /*display: none;*/
+        order: 1;
+        width: 100%;
+        overflow: scroll;
+        height: 4rem;
+    }
+    nav ul {
+        overflow: hidden;
+        display: block;
+    }
+    nav li, nav a {
+        display: inline;
+    }
+    #explainer {
+        order: 2;
+        padding: 5rem 0;
+        max-height: 50vh;
+    }
+}
+
+nav a {
+    color: #00B763;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: bold;
+}
+nav li {
+    list-style-type: none;
+}
+
+p, span {
+    font-size: 2rem;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Book or Paper */
+h1 {
+    font-size: 4rem;
+    line-height: .9em;
+}
+.chapter {
+    font-size: 9rem;
+    line-height: 1em;
+    font-weight: bold;
+}
+.announcement {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+p {
+    hypehns: auto;
+}
+
+@media screen and (min-width: 800px) {
+    html, body {
+        font-size: 14px;
+    }
+    body > header {
+        /* linke Seite, Text quer */
+        width: 5vw;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+        -ms-writing-mode: tb-rl; 
+        writing-mode: vertical-rl;
+        transform:rotate(180deg);
+    }
+    .sidebar {
+        position: fixed;
+        top: 0;
+        left: 5vw;
+        background: #E3E3E3;
+        width: 30vw;
+        height: 100vh;
+        overflow-y: scroll;
+        justify-content: space-between;
+    }
+    nav, #explainer {
+        margin: 2rem;
+    }
+    nav li {
+        
+    }
+    main {
+        width: 65vw;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    article, #newsletter, main > div {
+        margin: 6rem;
+    }
+    article {
+        display: grid;
+        grid-template-columns: 150px auto;
+        grid-template-rows: 2rem 5rem auto;
+        grid-template-areas:
+            "chapter meta"
+            "chapter headline"
+            "cover text";
+        gap: 2rem;
+    }
+    .chapter {
+        grid-area: chapter;
+        line-height: 9rem;
+    }
+    .meta {
+        grid-area: meta;
+        display: inline-flex;
+        justify-content: space-between;
+    }
+    .announcement {
+        font-size: 1rem;
+    }
+    h1 {
+        grid-area: headline;
+    }
+    .coverImage {
+        grid-area: cover;
+        width: 150px;
+        height: auto;
+    }
+    article > div {
+        grid-area: text;
+    }
+    #newsletter {
+        background: #00B763;
+        border-radius: 4rem;
+        text-align: center;
+    }
+    #newsletter a {
+        color: rgba(255, 255, 255, .8);
+        font-size: 2rem;
+        font-weight: bold;
+        padding: 2rem auto;
+        text-transform: uppercase;
+        text-decoration: none;
+
+    
+    }
+}

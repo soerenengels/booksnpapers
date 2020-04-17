@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="de">
+    {% include head.html %}
+    <body>
+        <header>
+            <a href="">{{ site.handle }}</a>
+        </header>
+        <div class="sidebar">
+            <p id="explainer">
+                {{ site.description }}
+            </p>
+            {% include navigation.html %}
+        </div>
+        <main>
+            {{ content }}
+            <footer id="newsletter">
+                <a href="mailto:soeren.engels@googlemail.com">Newsletter abonnieren</a>
+            </footer>
+        </main>
+    </body>
+</html>
