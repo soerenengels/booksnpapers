@@ -1,5 +1,6 @@
 ---
 layout: null
+exclude: true
 ---
 
 <?xml version="1.0" encoding="UTF-8" ?>
@@ -10,18 +11,18 @@ layout: null
         <link>{{ site.url }}</link>
         <description>{{ site.description }}</description>
         <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
-        {% for post in site.posts %}
+        {% for book in site.posts %}
         <item>
-            <title>{{ post.title }}</title>
+            <title>{{ book.title }}</title>
             <link>
-                {{ post.url | prepend: site.url }}
+                {{ book.url | prepend: site.url }}
             </link>
             <description>
-                {{ post.content | escape | truncate: '400' }}
+                {{ book.content | escape | truncate: '400' }}
             </description>
-            <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+            <pubDate>{{ book.date | date_to_rfc822 }}</pubDate>
             <guid>
-                {{ post.url | prepend: site.url }}
+                {{ book.url | prepend: site.url }}
             </guid>
         </item>
         {% endfor %}

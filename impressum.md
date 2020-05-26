@@ -2,11 +2,19 @@
 title: Impressum
 layout: default
 order: 6
-permalink: /impressum/
+permalink: /impressum
 ---
 
-Verantwortlich im Sinne des Presserechts
-Sören Engels
-MultiMedia & Autorschaft
+# Impressum
+
+**Verantwortlich im Sinne des Presserechts**
+
+[Sören Engels](https://soerenengels.de/) ([@soerenengels](https://twitter.com/soerenengels))
+
+[MultiMedia & Autorschaft](https://mmautor.net/?utm=booksnpapers.de)
+
+[mail@booksnpapers.de](mailto:mail@booksnpapers.de)
+
 Mansfelder Straße 56
-06114 Halle (Saale)
+
+06108 Halle (Saale)

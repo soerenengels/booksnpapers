@@ -2,13 +2,9 @@
 <html lang="de">
     {% include head.html %}
     <body>
-        <header>
-            <a href="">@booksnpapers</a>
-        </header>
+        {% include header.html %}
         <div class="sidebar">
-            <p id="explainer">
-                {{ site.description }}
-            </p>
+            {% include explainer.html %}
             {% include navigation.html %}
         </div>
         <main>

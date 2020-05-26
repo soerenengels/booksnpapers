@@ -1,8 +1,7 @@
+{% assign allpages = site.pages | sort: "order" %}
 <nav>
     <ul>
-        {% assign allpages = site.pages | sort: "order" %}
-        {% for page in allpages %}
-            <li><a href="{{ page.url }}">{{ page.title }}</a></li>
-        {% endfor %}
+        {% for page in allpages %}{% unless page.exclude %}<li><a href="{{ page.url }}">{{ page.title }}</a></li>
+        {% endunless %}{% endfor %}
     </ul>
 </nav>
