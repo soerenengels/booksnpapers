@@ -7,7 +7,7 @@ date: 18.05.2020 20:00
 tags: Journalismus, Bias, Hostwriter
 color: #00B763
 colorHighlight: #FC5862
-permalink: /archiv/unbias-the-news
+permalink: /session/unbias-the-news
 sessionlink: "https://sessions.booksnpapers.de/p/unbias-the-news?showControls=true&showChat=true&showLineNumbers=true&useMonospaceFont=false"
 archiv: true
 excerpt_separator: <!--more-->
