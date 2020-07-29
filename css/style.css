@@ -4,12 +4,17 @@
     --backgroundColorDocument: #EBEBEB;
     --backgroundColorSidebar: #E3E3E3;
     --backgroundColorHeader: #00B763;
-    --fontColor: #00B763;
-    */
+    --fontColor: #00B763; */
+    /* Fake Facts
     --backgroundColorDocument: #EBEBEB;
     --backgroundColorSidebar: #E3E3E3;
     --backgroundColorHeader: #C81A84;
-    --fontColor: #C81A84;
+    --fontColor: #C81A84; */
+    /* Tausend Zeilen Lüge */
+    --backgroundColorDocument: #EBEBEB;
+    --backgroundColorSidebar: #E4CEC7;
+    --backgroundColorHeader: #1B3138;
+    --fontColor: #1B3138;
 }
 
 /* Dokument */
@@ -245,7 +250,7 @@ footer#newsletter a {
         position: fixed;
         top: 0;
         left: 3.5rem;
-        background: #E3E3E3;
+        background: var(--backgroundColorSidebar);
         width: 30vw;
         height: 100vh;
         overflow-y: scroll;

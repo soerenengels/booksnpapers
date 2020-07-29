@@ -7,9 +7,9 @@ date: 23.06.2020 20:00
 tags: Journalismus
 color: #C81A84
 colorHighlight: false
-permalink: /session/fake-facts
-sessionlink: ""
-archiv: false
+permalink: /fake-facts
+sessionlink: "https://fake-facts.booksnpapers.de/"
+archiv: true
 published: true
 layout: default
 ---

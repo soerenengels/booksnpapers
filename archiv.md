@@ -7,7 +7,7 @@ permalink: /archiv
 
 # Archiv
 
-Die erste Session war ein großes Vergnügen. Zukünftig werden hier nach und nach die weiteren Sessions aufgelistet.
+Hier findest du die bisherigen Diskussionen.
 
 {% assign books = site.posts | where: "archiv", "true" %}
 
@@ -19,7 +19,8 @@ Die erste Session war ein großes Vergnügen. Zukünftig werden hier nach und na
 
 <div style="margin: 1em;">
 <h2 style="color: {{ book.color }} ;">{{ book.title }} </h2>
-<p>Hier findest du <a href="https://unbias-the-news.booksnpapers.de/">den Link zur dazugehörigen Session</a>.</p>
+<p>Zur 
+<a href="{{ book.sessionlink }}">Session</a>.</p>
 </div>
 
 </section>
