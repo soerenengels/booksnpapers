@@ -9,7 +9,7 @@ color: #E4CEC7
 colorHighlight: false
 permalink: /tausen-zeilen-lüge
 sessionlink: "https://tausend-zeilen-luege.booksnpapers.de/"
-archiv: false
+archiv: true
 published: true
 layout: default
 ---
@@ -28,7 +28,7 @@ Wir treffen uns am 13. August um 20 Uhr [auf dieser Seite](https://tausend-zeile
 
 ## Was wir machen
 
-Am 13. August 2020 treffen wir uns um 20 Uhr online in [diesem Etherpad](https://tausend-zeilen-luege.booksnpapers.de/) und besprechen gemeinsam _Tausend Zeilen Lüge_. 
+Am 13. August 2020 treffen wir uns um 20 Uhr online in [diesem Etherpad](https://tausend-zeilen-luege.booksnpapers.de/) und besprechen gemeinsam _Tausend Zeilen Lüge_.
 
 Was haben wir aus der Lektüre gewonnen? Was ist dir im Kopf hängen geblieben? Was hat dir besonders gefallen? Woran hast du dich gestört? Was ziehst du aus dem Buch für die eigene journalistische Praxis heraus? Gemeinsam wollen wir diese Fragen beantworten.
 
