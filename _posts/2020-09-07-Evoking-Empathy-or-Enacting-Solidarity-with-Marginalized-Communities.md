@@ -3,7 +3,7 @@ chapter: "04"
 title: "Evoking Empathy or Enacting Solidarity?"
 coverImage: "screenshot-evoking-empathy-or-enacting-solidarity.png"
 coverImageAlternative: "Screenshot of Evoking Empathy or Enacting Solidarity with Marginalized Communities"
-date: 08.09.2020 20:00
+date: 07.09.2020 20:00
 tags: Journalismus
 color: #E4CEC7
 colorHighlight: false
@@ -20,7 +20,7 @@ layout: default
 
 How do journalists report on marginalized communities? And what reporting attitude do they adopt? In a case study of journalistic humanizing techniques [Anita Varma](https://twitter.com/anitawrites) proposes a solidarity-based approach. The fourth round of our journalistic reading circle [@booksnpapers](https://twitter.com/booksnpapers) dedicates to Anita Varmas reasearch on journalistic report of marginalized communities: [Evoking Empathy or Enacting Solidarity with Marginalized Communities?](https://doi.org/10.1080/1461670X.2020.1789495). Therefore we switch the language of our discussion from German to English.
 
-We meet September 8th, 8pm (CEST) [on this page](https://evoking-empathy-or-enacting-solidarity.booksnpapers.de/) to discuss together.
+We meet September 7th, 8pm (CEST) [on this page](https://evoking-empathy-or-enacting-solidarity.booksnpapers.de/) to discuss together.
 
 </section>
 
@@ -28,7 +28,7 @@ We meet September 8th, 8pm (CEST) [on this page](https://evoking-empathy-or-enac
 
 ## What do we do?
 
-On September 8th, 2020, we meet at 8pm (CEST) online in [this Etherpad](https://tausend-zeilen-luege.booksnpapers.de/) and discuss together _Evoking Empathy or Enacting Solidarity with Marginalized Communities_.
+On September 7th, 2020, we meet at 8pm (CEST) online in [this Etherpad](https://tausend-zeilen-luege.booksnpapers.de/) and discuss together _Evoking Empathy or Enacting Solidarity with Marginalized Communities_.
 
 What did we gain from reading this paper? What got stuck in your head? What did you particularly like? What bothered you? What did you learn for your own journalistic practice? Together we want to answer these questions.
 
