@@ -1,6 +1,7 @@
 ---
 chapter: "04"
 title: "Evoking Empathy or Enacting Solidarity?"
+description: "@booksnpapers is a digital bookclub, established during the still ongoing pandemic. About every month, we are reading a book or paper concerning journalism, usually in German."
 coverImage: "screenshot-evoking-empathy-or-enacting-solidarity.png"
 coverImageAlternative: "Screenshot of Evoking Empathy or Enacting Solidarity with Marginalized Communities"
 date: 07.09.2020 20:00
@@ -28,7 +29,7 @@ We meet September 7th, 8pm (CEST) [on this page](https://evoking-empathy-or-enac
 
 ## What do we do?
 
-On September 7th, 2020, we meet at 8pm (CEST) online in [this Etherpad](https://tausend-zeilen-luege.booksnpapers.de/) and discuss together _Evoking Empathy or Enacting Solidarity with Marginalized Communities_.
+On September 7th, 2020, we meet at 8pm (CEST) online in [this Etherpad](https://evoking-empathy-or-enacting-solidarity.booksnpapers.de/) and discuss together _Evoking Empathy or Enacting Solidarity with Marginalized Communities_.
 
 What did we gain from reading this paper? What got stuck in your head? What did you particularly like? What bothered you? What did you learn for your own journalistic practice? Together we want to answer these questions.
 
@@ -42,7 +43,7 @@ You can find our previous sessions in our [archive](/archiv) _(in German)_. Have
 
 ## The paper
 
-The [abstract](https://www.rowohlt.de/taschenbuch/juan-moreno-tausend-zeilen-luege.html) says: "American journalists regularly humanize marginalized communities in an attempt to bridge social distance. Journalists’ techniques for doing so may constrain representations to the level of individual turmoil and resilience without accounting for structural factors, however, which has troubling social justice implications. This study examines how journalists humanize homeless people in the case of the collaborative San Francisco Homeless Project. Textual analysis of 325 stories complemented by in-depth interviews with journalists finds that journalists predominantly evoke empathy at a personal level and less frequently enact solidarity at a political level. Personal stories humanize members of marginalized communities through narratives of individual exceptionalism and relatability, which establish grounds for empathy. In contrast, politicized stories enact solidarity through a technique of radical inclusion that begins with marginalized people's analytical perspectives. With an ethic of empathy, journalism may encourage interpersonal harmony at an individual level but does little to bring the shared conditions of social injustice experienced across a community into focus—whereas with an ethic of solidarity, journalism becomes equipped to represent paths toward a more just society."
+The [abstract](https://doi.org/10.1080/1461670X.2020.1789495) says: "American journalists regularly humanize marginalized communities in an attempt to bridge social distance. Journalists’ techniques for doing so may constrain representations to the level of individual turmoil and resilience without accounting for structural factors, however, which has troubling social justice implications. This study examines how journalists humanize homeless people in the case of the collaborative San Francisco Homeless Project. Textual analysis of 325 stories complemented by in-depth interviews with journalists finds that journalists predominantly evoke empathy at a personal level and less frequently enact solidarity at a political level. Personal stories humanize members of marginalized communities through narratives of individual exceptionalism and relatability, which establish grounds for empathy. In contrast, politicized stories enact solidarity through a technique of radical inclusion that begins with marginalized people's analytical perspectives. With an ethic of empathy, journalism may encourage interpersonal harmony at an individual level but does little to bring the shared conditions of social injustice experienced across a community into focus—whereas with an ethic of solidarity, journalism becomes equipped to represent paths toward a more just society."
 
 </section>
 
