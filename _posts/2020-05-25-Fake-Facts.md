@@ -4,7 +4,7 @@ title: Fake Facts
 coverImage: "cover-fake-facts.png"
 coverImageAlternative: "Buchcover von Fake Facts"
 date: 23.06.2020 20:00
-tags: Journalismus
+tags: Journalismus, Verschwörungstheorien
 color: #C81A84
 colorHighlight: false
 permalink: /fake-facts

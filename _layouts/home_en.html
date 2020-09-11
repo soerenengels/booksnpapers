@@ -10,10 +10,9 @@
 			{% assign book = site.posts | first %}
 			<article>
 				<p class="meta">
-					<span class="announcement">Nächster Termin</span>
+					<span class="announcement"><!--Nächster Termin-->Next Session</span>
 					<span class="announcement"
-						>{{ book.date | date: "%d.%m.%Y" }}, {{ book.date | date: "%k"
-						}}Uhr</span
+						>{{ book.date | date: "%d.%m.%Y" }}, {{ book.date | date: "%k" }}<!--Uhr-->h</span
 					>
 				</p>
 

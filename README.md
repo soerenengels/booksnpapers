@@ -9,3 +9,4 @@ So far we read:
 - [Unbias the News](https://unbias-the-news.booksnpapers.de/)
 - [Fake Facts](https://fake-facts.booksnpapers.de/)
 - [Tausend Zeilen Lüge](https://tausend-zeilen-luege.booksnpapers.de/)
+- [Evoking Empathy or Enacting Solidarity with Marginalized Communities](evoking-empathy-or-enacting-solidarity.booksnpapers.de/)

@@ -4,7 +4,7 @@ title: Tausend Zeilen Lüge
 coverImage: "cover-tausend-zeilen-luege.jpg"
 coverImageAlternative: "Buchcover von Tausend Zeilen Lüge"
 date: 13.08.2020 20:00
-tags: Journalismus
+tags: Journalismus, Relotius, Spiegel
 color: #E4CEC7
 colorHighlight: false
 permalink: /tausen-zeilen-lüge

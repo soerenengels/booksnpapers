@@ -5,12 +5,12 @@ description: "@booksnpapers is a digital bookclub, established during the still 
 coverImage: "screenshot-evoking-empathy-or-enacting-solidarity.png"
 coverImageAlternative: "Screenshot of Evoking Empathy or Enacting Solidarity with Marginalized Communities"
 date: 07.09.2020 20:00
-tags: Journalismus
+tags: Journalismus, "Radikale Inklusion", "Marginalisierte Communities"
 color: #E4CEC7
 colorHighlight: false
 permalink: /evoking-empathy-or-enacting-solidarity
 sessionlink: "https://evoking-empathy-or-enacting-solidarity.booksnpapers.de/"
-archiv: false
+archiv: true
 published: true
 layout: default
 ---
