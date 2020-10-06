@@ -1,0 +1,52 @@
+<script type="application/ld+json">
+	{
+	    "@context": "http://schema.org",
+	    "@type": {{ site.seo.type }},
+	    "logo": {
+	        "@type":"ImageObject",
+	        "url": {{ site.seo.logo }}
+	    },
+	    "name": {{ site.seo.name }},
+	    "event": {
+	        "@type": "Event",
+	        "name": {{ page.title + " " + site.handle }}
+	        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+	        "isAccessibleForFree": true,
+	        "location": {
+	            "@type":"VirtualLocation",
+	            "url": "https://drehbuch-der-recherche.booksnpapers.de/"
+	        }
+	        "startDate": "2020-10-07T19:20:00-05:00",
+	        "endDate": "2020-10-07T22:00-05:00",
+	        "image": [
+	            "https://example.com/photos/1x1/photo.jpg",
+	            "https://example.com/photos/4x3/photo.jpg",
+	            "https://example.com/photos/16x9/photo.jpg"
+	        ],
+	        "description": {{ post.description }}
+	        "about": {
+	            "@type": "Book",
+	                "name": {{ page.title }},
+	                "bookFormat": "EBook",
+	                "numberOfPages": "92",
+	                "author": [
+	                    {
+	                        "@id": "https://www.luuksengers.nl/",
+	                        "@type": "Person",
+	                        "givenName": "Luuk",
+	                        "familyName": "Sengers"
+	                    },{
+	                        "@id": "http://markleehunter.free.fr/",
+	                        "@type": "Person",
+	                        "givenName": "Mark",
+	                        "additionalName": "Lee"
+	                        "familyName": "Hunter"
+	                }],
+	                "image": {
+	                    "@id": {{ page.coverImage }}
+	                },
+	            },
+	        }
+	    ]
+	}
+</script>
