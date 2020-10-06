@@ -1,0 +1,19 @@
+---
+chapter: "00"
+title: ""
+description: ""
+coverImage: "cover-slug.png"
+coverImageAlternative: "Cover des ... Alt-Text"
+date: 07.10.2020 20:00
+tags: Journalismus, ...
+color: "#000000"
+colorHighlight: false
+permalink: /slug
+sessionlink: "https://slug.booksnpapers.de/"
+archiv: false
+published: true
+layout: default
+seo:
+  name: "Titel der Seite"
+  type: "Event"
+---
