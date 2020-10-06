@@ -1,6 +1,7 @@
 ---
 chapter: "03"
-title: Tausend Zeilen Lüge
+title: "Tausend Zeilen Lüge"
+description: "Die Diskussion um den spannenden Realkrimi Tausend Zeilen Lüge stand im Fokus von Solidarität und Redaktionskultur."
 coverImage: "cover-tausend-zeilen-luege.jpg"
 coverImageAlternative: "Buchcover von Tausend Zeilen Lüge"
 date: 13.08.2020 20:00

@@ -1,6 +1,7 @@
 ---
 chapter: "02"
-title: Fake Facts
+title: "Fake Facts"
+description: "Fake Facts sensibilisiert für die allgegenwärtigen Verschwörungserzählungen. Die Diskussion hat eine große Dankbarkeit für ein Erklärungsrepertoire offenbart."
 coverImage: "cover-fake-facts.png"
 coverImageAlternative: "Buchcover von Fake Facts"
 date: 23.06.2020 20:00

@@ -1,18 +1,22 @@
 ---
 chapter: "05"
 title: "Drehbuch der Recherche"
-description: "@booksnpapers is a digital bookclub, established during the still ongoing pandemic. About every month, we are reading a book or paper concerning journalism, usually in German."
+description: "In Session 5 @booksnpapers lasen wir gemeinsam das Drehbuch der Recherche, ein methodisches Handbuch zum investigativen Arbeiten."
 coverImage: "cover-drehbuch-der-recherche.png"
 coverImageAlternative: "Cover des Drehbuchs der Recherche"
 date: 07.10.2020 20:00
 tags: Journalismus, Investigativ
-color: #60ab4e
+color: "#60ab4e"
 colorHighlight: false
 permalink: /drehbuch-der-recherche
 sessionlink: "https://drehbuch-der-recherche.booksnpapers.de/"
 archiv: false
 published: true
 layout: default
+seo:
+  name: "Titel der Seite"
+  type: "Event"
+  links: "https://drehbuch-der-recherche.booksnpapers.de/"
 ---
 
 <section markdown="1">

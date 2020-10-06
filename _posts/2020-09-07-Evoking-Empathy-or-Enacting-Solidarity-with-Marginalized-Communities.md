@@ -1,12 +1,12 @@
 ---
 chapter: "04"
 title: "Evoking Empathy or Enacting Solidarity?"
-description: "@booksnpapers is a digital bookclub, established during the still ongoing pandemic. About every month, we are reading a book or paper concerning journalism, usually in German."
+description: "The first English session of @booksnpapers was joined by Anita Varma. She enriched our discussion about her paper on solidarity as humanizing technique in journalistic reporting."
 coverImage: "screenshot-evoking-empathy-or-enacting-solidarity.png"
 coverImageAlternative: "Screenshot of Evoking Empathy or Enacting Solidarity with Marginalized Communities"
 date: 07.09.2020 20:00
-tags: Journalismus, "Radikale Inklusion", "Marginalisierte Communities"
-color: #E4CEC7
+tags: [Journalismus, "Radikale Inklusion", "Marginalisierte Communities"]
+color: "#E4CEC7"
 colorHighlight: false
 permalink: /evoking-empathy-or-enacting-solidarity
 sessionlink: "https://evoking-empathy-or-enacting-solidarity.booksnpapers.de/"

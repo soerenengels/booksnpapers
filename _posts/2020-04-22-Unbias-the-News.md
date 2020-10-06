@@ -1,6 +1,7 @@
 ---
 chapter: "01"
-title: Unbias the News
+title: "Unbias the News"
+description: "Im Auftakt von @booksnpapers beschäftigten wir uns mit diversen Perspektiven auf das System des Journalismus und welchen Einfluss diese auf unsere Verarbeitung von Realität haben."
 coverImage: "cover-unbias-the-news.jpg"
 coverImageAlternative: "Cover von Unbias the News"
 date: 18.05.2020 20:00
@@ -22,7 +23,7 @@ Wir beginnen den journalistischen Lesekreis [@booksnpapers](https://twitter.com/
 
 <a href="https://unbias-the-news.booksnpapers.de/" style="color: {{ colorHighlight }}}">Der Link zur Buchclub-Session findet sich hier.</a> Treffpunkt: 18.05. 20 Uhr.
 
-Zur möglichen Orientierung erklärt die Autorin [Tabea Grzeszyk](https://twitter.com/tabeszyk) in einem [journalism.co.uk-Podcast mit Marcela Kunova](https://www.journalism.co.uk/podcast/-diversity-is-not-about-political-correctness-it-s-about-quality-journalism-/s399/a743875/) die Entstehungsgeschichte und Kernpunkte von _Unbias the News_. 
+Zur möglichen Orientierung erklärt die Autorin [Tabea Grzeszyk](https://twitter.com/tabeszyk) in einem [journalism.co.uk-Podcast mit Marcela Kunova](https://www.journalism.co.uk/podcast/-diversity-is-not-about-political-correctness-it-s-about-quality-journalism-/s399/a743875/) die Entstehungsgeschichte und Kernpunkte von _Unbias the News_.
 
 </section>
 
@@ -42,7 +43,7 @@ Was ist dir im Kopf hängen geblieben? Was hat dir besonders gefallen? Woran has
 
 ## Das Buch
 
-_"Unbias the News bietet Erfahrungsberichte von Journalist*innen weltweit, von Deutschland bis Brasilien, von Tadschikistan bis zu den Philippinen und von China bis zu den USA. Von Menschen, die sich jeden Tag bemühen, den Journalismus vielfältiger zu gestalten und nur allzu oft an die Grenzen eines verhärteten Systems stoßen – ihre Geschichten sind überraschend, lustig, aber auch empörend. Unbias the News ist ein praktischer Leitfaden für mehr Vielfalt in den Medien und eine neue Art des Journalismus, der so vielfältig ist wie die Gesellschaften, für die er gemacht ist." 
+\_"Unbias the News bietet Erfahrungsberichte von Journalist\*innen weltweit, von Deutschland bis Brasilien, von Tadschikistan bis zu den Philippinen und von China bis zu den USA. Von Menschen, die sich jeden Tag bemühen, den Journalismus vielfältiger zu gestalten und nur allzu oft an die Grenzen eines verhärteten Systems stoßen – ihre Geschichten sind überraschend, lustig, aber auch empörend. Unbias the News ist ein praktischer Leitfaden für mehr Vielfalt in den Medien und eine neue Art des Journalismus, der so vielfältig ist wie die Gesellschaften, für die er gemacht ist."
 
 </section>
 
