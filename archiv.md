@@ -1,5 +1,6 @@
 ---
-title: Archiv
+title: "Archiv"
+description: "In dem Archiv von @booksnpapers finden sich die Diskussionen und dazugehörigen Ankündigungen zu den einzelnen Lesekreis-Sessions des digitalen Journalismus-Buchclubs Books 'n Papers. Stöbere in den vergangenen Sitzungen!"
 layout: default
 order: 3
 permalink: /archiv
@@ -23,7 +24,7 @@ Hier findest du die bisherigen Diskussionen.
 
 {{ book.description }}
 
-— zur [Session]({{ book.sessionlink }}) / zur [Ankündigung]({{ book.permalink }})
+— zur [Session]({{book.sessionlink }}) / zur [Ankündigung]({{ book.permalink }})
 
 </div>
 
