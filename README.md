@@ -10,3 +10,8 @@ So far we read:
 - [Fake Facts](https://fake-facts.booksnpapers.de/)
 - [Tausend Zeilen Lüge](https://tausend-zeilen-luege.booksnpapers.de/)
 - [Evoking Empathy or Enacting Solidarity with Marginalized Communities](evoking-empathy-or-enacting-solidarity.booksnpapers.de/)
+- [Drehbuch der Recherche](https://drehbuch-der-recherche.booksnpapers.de/)
+
+## To Do:
+
+- https://addtocal.sznm.dev/

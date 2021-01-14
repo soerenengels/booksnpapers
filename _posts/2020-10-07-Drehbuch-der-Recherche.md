@@ -10,9 +10,9 @@ color: "#60ab4e"
 colorHighlight: false
 permalink: /drehbuch-der-recherche
 sessionlink: "https://drehbuch-der-recherche.booksnpapers.de/"
-archiv: false
+archiv: true
 published: true
-layout: default
+layout: book
 seo:
   name: "Titel der Seite"
   type: "Event"

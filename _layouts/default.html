@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html lang="de">
-    {% include head.html %}
-    <body class="default">
-        {% include header.html %}
-        <div class="sidebar">
-            {% include explainer.html %}
-            {% include navigation.html %}
+{% include head.html %}
+
+<body class="default">
+    {% include header.html %}
+    <div class="sidebar">
+        {% include explainer.html %}
+        {% include navigation.html %}
+    </div>
+    <main>
+        <div>
+            {{ content }}
         </div>
-        <main>
-            <div>
-                {{ content }}
-            </div>
-            {% include newsletter.html %}
-        </main>
-    </body>
+        {% include newsletter.html %}
+    </main>
+</body>
+
 </html>

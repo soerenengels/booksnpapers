@@ -12,7 +12,7 @@ permalink: /unbias-the-news
 sessionlink: "https://sessions.booksnpapers.de/p/unbias-the-news?showControls=true&showChat=true&showLineNumbers=true&useMonospaceFont=false"
 archiv: true
 excerpt_separator: <!--more-->
-layout: default
+layout: book
 ---
 
 <section markdown="1">

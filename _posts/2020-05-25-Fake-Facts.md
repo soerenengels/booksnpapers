@@ -12,7 +12,7 @@ permalink: /fake-facts
 sessionlink: "https://fake-facts.booksnpapers.de/"
 archiv: true
 published: true
-layout: default
+layout: book
 ---
 
 <section markdown="1">

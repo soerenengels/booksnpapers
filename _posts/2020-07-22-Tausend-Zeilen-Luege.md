@@ -12,7 +12,7 @@ permalink: /tausen-zeilen-lüge
 sessionlink: "https://tausend-zeilen-luege.booksnpapers.de/"
 archiv: true
 published: true
-layout: default
+layout: book
 ---
 
 <section markdown="1">

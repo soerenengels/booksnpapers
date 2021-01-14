@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="de">
+{% include head.html %}
+
+<body>
+	{% include header.html %}
+	<div class="sidebar">
+		{% include explainer.html %} {% include navigation.html %}
+	</div>
+	<main vocab="http://schema.org/">
+		<article typeof="Event">
+			<p class="meta">
+				<span class="announcement">Stattgefunden am</span>
+				<span class="announcement">{{ page.date | date: "%d.%m.%Y" }}, {{ page.date | date: "%k"
+					}}Uhr</span>
+			</p>
+
+			<span class="chapter">{{ page.chapter }}</span>
+			<h1>{{ page.title }}</h1>
+			<img src="{{ site.url }}/assets/{{ page.coverImage }}" alt="{{ page.coverImageAlternative }}"
+				class="coverImage" />
+			<div>
+				<section>{{ content }}</section>
+			</div>
+		</article>
+		{% include newsletter.html %}
+	</main>
+</body>
+
+</html>

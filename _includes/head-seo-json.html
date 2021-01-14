@@ -1,15 +1,18 @@
 <script type="application/ld+json">
 	{
 	    "@context": "http://schema.org",
-	    "@type": {{ site.seo.type }},
+		"@type": "{{ site.seo.type }}",
+		"name": "{{ site.seo.name }}",
+		"description": "{{ site.seo.description }}",
 	    "logo": {
 	        "@type":"ImageObject",
-	        "url": {{ site.seo.logo }}
-	    },
-	    "name": {{ site.seo.name }},
-	    "event": {
+	        "url": "{{ site.seo.logo }}"
+		},
+		"url": {{ site.url }}
+	    
+	    /* "event": {
 	        "@type": "Event",
-	        "name": {{ page.title + " " + site.handle }}
+	        "name": "{{ page.title + " " + site.twitter.username }}",
 	        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
 	        "isAccessibleForFree": true,
 	        "location": {
@@ -46,7 +49,7 @@
 	                    "@id": {{ page.coverImage }}
 	                },
 	            },
-	        }
-	    ]
+	        } */
+	   }
 	}
 </script>

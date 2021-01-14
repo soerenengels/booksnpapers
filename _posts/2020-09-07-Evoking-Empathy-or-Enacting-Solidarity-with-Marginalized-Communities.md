@@ -12,7 +12,7 @@ permalink: /evoking-empathy-or-enacting-solidarity
 sessionlink: "https://evoking-empathy-or-enacting-solidarity.booksnpapers.de/"
 archiv: true
 published: true
-layout: default
+layout: book
 ---
 
 <section markdown="1">

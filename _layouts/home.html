@@ -1,34 +1,31 @@
 <!DOCTYPE html>
 <html lang="de">
-	{% include head.html %}
-	<body>
-		{% include header.html %}
-		<div class="sidebar">
-			{% include explainer.html %} {% include navigation.html %}
-		</div>
-		<main>
-			{% assign book = site.posts | first %}
-			<article>
-				<p class="meta">
-					<span class="announcement">Nächster Termin</span>
-					<span class="announcement"
-						>{{ book.date | date: "%d.%m.%Y" }}, {{ book.date | date: "%k"
-						}}Uhr</span
-					>
-				</p>
+{% include head.html %}
 
-				<span class="chapter">{{ book.chapter }}</span>
-				<h1>{{ book.title }}</h1>
-				<img
-					src="{{ site.url }}/assets/{{ book.coverImage }}"
-					alt="{{ book.coverImageAlternative }}"
-					class="coverImage"
-				/>
-				<div>
-					<section>{{ book.content }}</section>
-				</div>
-			</article>
-			{% include newsletter.html %}
-		</main>
-	</body>
+<body>
+	{% include header.html %}
+	<div class="sidebar">
+		{% include explainer.html %} {% include navigation.html %}
+	</div>
+	<main vocab="http://schema.org/">
+		{% assign book = site.posts | first %}
+		<article typeof="Event">
+			<p class="meta">
+				<span class="announcement">Nächster Termin</span>
+				<span class="announcement">{{ book.date | date: "%d.%m.%Y" }}, {{ book.date | date: "%k"
+						}}Uhr</span>
+			</p>
+
+			<span class="chapter">{{ book.chapter }}</span>
+			<h1>{{ book.title }}</h1>
+			<img src="{{ site.url }}/assets/{{ book.coverImage }}" alt="{{ book.coverImageAlternative }}"
+				class="coverImage" />
+			<div>
+				<section>{{ book.content }}</section>
+			</div>
+		</article>
+		{% include newsletter.html %}
+	</main>
+</body>
+
 </html>
