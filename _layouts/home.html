@@ -7,13 +7,13 @@
 	<div class="sidebar">
 		{% include explainer.html %} {% include navigation.html %}
 	</div>
-	<main vocab="http://schema.org/">
+	<main>
 		{% assign book = site.posts | first %}
-		<article typeof="Event">
+		<article>
 			<p class="meta">
 				<span class="announcement">Nächster Termin</span>
 				<span class="announcement">{{ book.date | date: "%d.%m.%Y" }}, {{ book.date | date: "%k"
-						}}Uhr</span>
+					}}Uhr</span>
 			</p>
 
 			<span class="chapter">{{ book.chapter }}</span>
