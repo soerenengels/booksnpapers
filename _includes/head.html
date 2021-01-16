@@ -6,8 +6,10 @@
 	<link href="{{ site.url }}/css/style.css" type="text/css" rel="stylesheet" />
 	<!-- SEO -->
 	{% include head-seo.html %}
+	{% if page.layout == 'home' %}
 	<!-- LS+JSON -->
 	{% include head-seo-json.html %}
+	{% endif %}
 	<!-- Matomo -->
 	{% include head-matomo.html %}
 </head>

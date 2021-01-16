@@ -1,3 +1,8 @@
+{% assign session = site.posts.first %}
+{% assign siteLogoUrl = site.url | append: site.seo.logo %}
+{% assign eventName = session.title | append: " " | append: site.twitter.username %}
+{% assign coverImageUrl = site.url | append: "/" | append: session.coverImage %}
+{% assign eventImageUrl = site.url | append: "/assets/" | append: session.eventImage %}
 <script type="application/ld+json">
 	{
 	    "@context": "http://schema.org",
@@ -6,50 +11,51 @@
 		"description": "{{ site.seo.description }}",
 	    "logo": {
 	        "@type":"ImageObject",
-	        "url": "{{ site.seo.logo }}"
+	        "url": "{{ siteLogoUrl }}"
 		},
-		"url": {{ site.url }}
-	    
-	    /* "event": {
+		"url": "{{ site.url }}",
+	    "event": {
 	        "@type": "Event",
-	        "name": "{{ page.title + " " + site.twitter.username }}",
+	        "name": "{{ eventName }}",
 	        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
 	        "isAccessibleForFree": true,
 	        "location": {
-	            "@type":"VirtualLocation",
-	            "url": "https://drehbuch-der-recherche.booksnpapers.de/"
-	        }
-	        "startDate": "2020-10-07T19:20:00-05:00",
-	        "endDate": "2020-10-07T22:00-05:00",
+	            "@type": "VirtualLocation",
+	            "url": "{{ session.sessionlink }}"
+	        },
+	        "startDate": "2021-01-25T19:20:00-05:00",
+	        "endDate": "2021-01-25T22:00-05:00",
 	        "image": [
-	            "https://example.com/photos/1x1/photo.jpg",
-	            "https://example.com/photos/4x3/photo.jpg",
-	            "https://example.com/photos/16x9/photo.jpg"
+	            "{{ eventImageUrl }}"
 	        ],
-	        "description": {{ post.description }}
+	        "description": "{{ session.description }}",
 	        "about": {
 	            "@type": "Book",
-	                "name": {{ page.title }},
-	                "bookFormat": "EBook",
-	                "numberOfPages": "92",
-	                "author": [
-	                    {
-	                        "@id": "https://www.luuksengers.nl/",
-	                        "@type": "Person",
-	                        "givenName": "Luuk",
-	                        "familyName": "Sengers"
-	                    },{
-	                        "@id": "http://markleehunter.free.fr/",
-	                        "@type": "Person",
-	                        "givenName": "Mark",
-	                        "additionalName": "Lee"
-	                        "familyName": "Hunter"
-	                }],
-	                "image": {
-	                    "@id": {{ page.coverImage }}
-	                },
-	            },
-	        } */
-	   }
+	            "name": "{{ session.title }}",
+	            "bookFormat": "{{ session.type }}",
+	            "numberOfPages": "{{ session.numberOfPages }}",
+				"author": [
+					{% for author in session.authors %}
+	                {
+	                    "@id": "{{ author.id }}",
+	                    "@type": "Person",
+						"givenName": "{{ author.givenName }}",
+						{%- if author.additionalName %}
+						"additionalName": "{{ authoradditionalName }}",
+						{% endif %}
+						"familyName": "{{ author.familyName }}"
+					{% if forloop.index != forloop.length - 1%}
+					},
+					{% else %}
+					}
+					{% endif %}
+					{% endfor %}
+				],
+	            "image": {
+	                "@id": "{{ coverImageUrl }}"
+	            }
+	        }
+	    }
 	}
+	
 </script>
