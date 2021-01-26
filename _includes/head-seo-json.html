@@ -1,59 +1,59 @@
-{% assign session = site.posts.first %}
-{% assign siteLogoUrl = site.url | append: site.seo.logo %}
-{% assign eventName = session.title | append: " " | append: site.twitter.username %}
-{% assign coverImageUrl = site.url | append: "/" | append: session.coverImage %}
-{% assign eventImageUrl = site.url | append: "/assets/" | append: session.eventImage %}
-<script type="application/ld+json">
+{%- assign session = site.posts.first %}
+{%- assign siteLogoUrl = site.url | append: site.seo.logo %}
+{%- assign eventName = session.title | append: " " | append: site.twitter.username %}
+{%- assign coverImageUrl = site.url | append: "/" | append: session.coverImage %}
+{%- assign eventImageUrl = site.url | append: "/assets/" | append: session.eventImage %}
+	<script type="application/ld+json">
 	{
-	    "@context": "http://schema.org",
+		"@context": "http://schema.org",
 		"@type": "{{ site.seo.type }}",
 		"name": "{{ site.seo.name }}",
 		"description": "{{ site.seo.description }}",
-	    "logo": {
-	        "@type":"ImageObject",
-	        "url": "{{ siteLogoUrl }}"
+		"logo": {
+			"@type":"ImageObject",
+			"url": "{{ siteLogoUrl }}"
 		},
 		"url": "{{ site.url }}",
-	    "event": {
-	        "@type": "Event",
-	        "name": "{{ eventName }}",
-	        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-	        "isAccessibleForFree": true,
-	        "location": {
-	            "@type": "VirtualLocation",
-	            "url": "{{ session.sessionlink }}"
-	        },
-	        "startDate": "2021-01-25T19:20:00-05:00",
-	        "endDate": "2021-01-25T22:00-05:00",
-	        "image": [
-	            "{{ eventImageUrl }}"
-	        ],
-	        "description": "{{ session.description }}",
-	        "about": {
-	            "@type": "Book",
-	            "name": "{{ session.title }}",
-	            "bookFormat": "{{ session.type }}",
-	            "numberOfPages": "{{ session.numberOfPages }}",
+		"event": {
+			"@type": "Event",
+			"name": "{{ eventName }}",
+			"eventStatus": "EventScheduled",
+			"eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+			"isAccessibleForFree": true,
+			"location": {
+				"@type": "VirtualLocation",
+				"url": "{{ session.sessionlink }}"
+			},
+			"startDate": "2021-01-25T19:20:00-05:00",
+			"endDate": "2021-01-25T22:00-05:00",
+			"image": [
+				"{{ eventImageUrl }}"
+			],
+			"description": "{{ session.description }}",
+			"about": {
+				"@type": "Book",
+				"name": "{{ session.title }}",
+				"bookFormat": "{{ session.type }}",
+				"numberOfPages": "{{ session.numberOfPages }}",
 				"author": [
-					{% for author in session.authors %}
-	                {
-	                    "@id": "{{ author.id }}",
-	                    "@type": "Person",
+					{%- for author in session.authors %}
+					{
+						"@id": "{{ author.id }}",
+						"@type": "Person",
 						"givenName": "{{ author.givenName }}",
 						{%- if author.additionalName %}
 						"additionalName": "{{ authoradditionalName }}",
 						{% endif %}
 						"familyName": "{{ author.familyName }}"
-					{% if forloop.index != forloop.length - 1%}
+					{%- if forloop.index != forloop.length - 1%}
 					},
-					{% else %}
+					{%- else %}
 					}
-					{% endif %}
-					{% endfor %}
+					{%- endif %}
+					{%- endfor %}
 				],
-	            "image": "{{ coverImageUrl }}"
-	        }
-	    }
+				"image": "{{ coverImageUrl }}"
+			}
+		}
 	}
-	
-</script>
+	</script>
