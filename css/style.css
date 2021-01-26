@@ -26,11 +26,15 @@
 	--backgroundColorHeader: #60ab4e;
 	--fontColor: #60ab4e;*/
 	/* #6 Factfulness */
-	--backgroundColorDocument: #ebebeb;
+	/* --backgroundColorDocument: #ebebeb;
 	--backgroundColorSidebar: #e3e3e3;
 	--backgroundColorHeader: #e85dbf;
-	--fontColor: #e85dbf;
-	
+	--fontColor: #e85dbf; */
+	/* #7 Solidarisch gegen Klassismus */
+	--backgroundColorDocument: #ebebeb;
+	--backgroundColorSidebar: #e3e3e3;
+	--backgroundColorHeader: #51ACB9;
+	--fontColor: #51ACB9;
 }
 
 /* Dokument */

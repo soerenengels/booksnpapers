@@ -7,7 +7,7 @@ authors:
   - { id: "https://www.wikidata.org/wiki/Q588259", givenName: "Hans", familyName: "Rosling", }
   - { id: "https://www.wikidata.org/wiki/Q24680868", givenName: "Anna", familyName: "Rosling Rönnlund", }
   - { id: "https://www.wikidata.org/wiki/Q22280133", givenName: "Ola", familyName: "Rosling", }
-description: "Mit der Lektüre von Factfulness von Hans, Anna Rönnlund und Ola Rosling bestreiten wir Session 6 des digitalen Journalismus-Buchclubs @booksnpapers."
+description: "Mit der Lektüre von Factfulness von Hans, Anna Rönnlund und Ola Rosling bestritten wir Session 6 des digitalen Journalismus-Buchclubs @booksnpapers."
 eventImage: "06_factfulness_2x1.png"
 coverImage: "cover-factfulness.jpg"
 coverImageAlternative: "Buchcover der deutschen Übersetzung von Factfulness"
@@ -17,7 +17,7 @@ color: "#17A240"
 colorHighlight: false
 permalink: /factfulness
 sessionlink: "https://factfulness.booksnpapers.de/"
-archiv: false
+archiv: true
 published: true
 layout: book
 seo:
