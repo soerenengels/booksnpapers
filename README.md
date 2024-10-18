@@ -11,7 +11,10 @@ So far we read:
 - [Tausend Zeilen Lüge](https://tausend-zeilen-luege.booksnpapers.de/)
 - [Evoking Empathy or Enacting Solidarity with Marginalized Communities](evoking-empathy-or-enacting-solidarity.booksnpapers.de/)
 - [Drehbuch der Recherche](https://drehbuch-der-recherche.booksnpapers.de/)
+- [Factfulness](https://drehbuch-der-recherche.booksnpapers.de/)
+- [Solidarisch gegen Klassismus](https://solidarisch-gegen-klassismus.booksnpapers.de/)
 
 ## To Do:
 
 - https://addtocal.sznm.dev/
+- http://www.coding-dude.com/wp/css/text-in-a-circle/

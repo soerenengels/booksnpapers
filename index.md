@@ -1,6 +1,6 @@
 ---
 title: Startseite
-layout: home
+layout: home_en
 order: 1
 ---
 

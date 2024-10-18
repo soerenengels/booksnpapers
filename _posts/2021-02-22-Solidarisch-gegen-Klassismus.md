@@ -6,7 +6,7 @@ numberOfPages: 280
 authors:
   - { id: "https://www.francisseeck.net/", givenName: "Francis", familyName: "Seeck", }
   - { id: "https://www.brigittetheissl.net/", givenName: "Brigitte", familyName: "Theißl", }
-description: "Mit der Lektüre von Factfulness von Hans, Anna Rönnlund und Ola Rosling bestreiten wir Session 6 des digitalen Journalismus-Buchclubs @booksnpapers."
+description: "Mit der Lektüre von 'Solidarisch gegen Klassismus', herausgegeben von Francis Seeck und Brigitte Theißl bestreiten wir Session 7 des digitalen Journalismus-Buchclubs @booksnpapers."
 eventImage: "07_solidarisch-gegen-klassismus_2x1.png"
 eventImageAlt: "Ankündigungsgrafik der nächsten Buchclub-Session am 22.02.2021 zu Solidarisch gegen Klassismus"
 coverImage: "cover-solidarisch-gegen-klassismus.jpg"
@@ -17,7 +17,7 @@ color: "#51ACB9"
 colorHighlight: false
 permalink: /solidarisch-gegen-klassismus
 sessionlink: "https://solidarisch-gegen-klassismus.booksnpapers.de/"
-archiv: false
+archiv: true
 published: true
 layout: book
 seo:
@@ -27,7 +27,7 @@ seo:
 
 <section markdown="1">
 
-## Sehen lernen
+## Erkennen lernen
 
 Manchmal sehen wir gar nicht so klar. Das hat uns [die Lektüre von Factfulness](/factfulness) gezeigt. Dass kann an mangelnden oder veralteten Daten bzw. ihrer fehlerhaften Interpretation liegen. Es kann allerdings auch an einer unzureichenden Reflexion der eigenen Position liegen. In **Solidarisch gegen Klassismus** beschäftigen sich [Francis Seeck](https://www.francisseeck.net/) und [Brigitte Theißl](https://www.brigittetheissl.net/) gemeinsam mit zahlreichen weiteren Autor:innen mit Klassismus, der "Diskriminierung aufgrund von Klassenherkunft oder Klassenzugehörigkeit". Vielleicht lässt sich ja was für den Journalismus lernen?
 

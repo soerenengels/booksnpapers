@@ -31,10 +31,18 @@
 	--backgroundColorHeader: #e85dbf;
 	--fontColor: #e85dbf; */
 	/* #7 Solidarisch gegen Klassismus */
-	--backgroundColorDocument: #ebebeb;
+	/* --backgroundColorDocument: #ebebeb;
 	--backgroundColorSidebar: #e3e3e3;
 	--backgroundColorHeader: #51ACB9;
-	--fontColor: #51ACB9;
+	--fontColor: #51ACB9; */
+	/* #8 Structure and Empathy in Visual Data Storytelling */
+	--backgroundColorDocument: #EBEBEB;
+    --backgroundColorSidebar: #E3E3E3;
+	--backgroundColorHeader: -moz-linear-gradient(#2AAECC, #2ACCAE);
+	--backgroundColorHeader: -webkit-linear-gradient(#2AAECC, #2ACCAE);
+	--backgroundColorHeader: linear-gradient(#2AAECC, #2ACCAE);
+	--fontColor: #2AAECC;
+	
 }
 
 /* Dokument */

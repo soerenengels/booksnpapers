@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="en">
 	{% include head.html %}
 	<body>
 		{% include header.html %}
 		<div class="sidebar">
-			{% include explainer.html %} {% include navigation.html %}
+			{% include explainer_en.html %} {% include navigation.html %}
 		</div>
 		<main>
 			{% assign book = site.posts | first %}
@@ -27,7 +27,7 @@
 					<section>{{ book.content }}</section>
 				</div>
 			</article>
-			{% include newsletter.html %}
+			{% include newsletter_en.html %}
 		</main>
 	</body>
 </html>

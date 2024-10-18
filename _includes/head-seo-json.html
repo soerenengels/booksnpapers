@@ -31,9 +31,8 @@
 			],
 			"description": "{{ session.description }}",
 			"about": {
-				"@type": "Book",
+				"@type": "{{ session.type }}",
 				"name": "{{ session.title }}",
-				"bookFormat": "{{ session.type }}",
 				"numberOfPages": "{{ session.numberOfPages }}",
 				"author": [
 					{%- for author in session.authors %}
