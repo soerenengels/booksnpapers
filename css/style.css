@@ -42,7 +42,11 @@
 	--backgroundColorHeader: -webkit-linear-gradient(#2AAECC, #2ACCAE);
 	--backgroundColorHeader: linear-gradient(#2AAECC, #2ACCAE);
 	--fontColor: #2AAECC;
-	
+	/* #9 Working Class */ 
+	--backgroundColorDocument: #EBEBEB;
+    --backgroundColorSidebar: #E3E3E3;
+	--backgroundColorHeader: #013161;
+	--fontColor: #013161;
 }
 
 /* Dokument */
